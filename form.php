@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost:50";
+/*$servername = "localhost:50";
 $username = "admin";
 $password = "IrpLzX71wZnd";
 $dbname = "data_contactform";
@@ -21,4 +21,39 @@ if (mysqli_query($conn, $sql)) {
 }
 
 mysqli_close($conn);
+
+
+
+// link form 
+
+echo "<pre>";
+print_r($_POST);
+
+// returns
+Array
+(
+    [name] => Lou 
+    [email] => 
+    [message] => 68
+)
+
+$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+
+$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+
+// 2. Validation
+if (true ==== filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo "This cleaned email address is considered valid."
+} else {
+	echo "This cleaned email address is not valid. Sorry. xoxo."
+}
 ?>
+*/ 
+
+$name = $_POST['name']; 
+echo "here's your input"; 
+echo $name; 
+echo $mail; 
+echo $message; 
+
+
