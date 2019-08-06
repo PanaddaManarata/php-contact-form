@@ -1,6 +1,36 @@
+*{
+    margin: 0 auto; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+section{
+    width: 960px; 
+    height: 100vh;
+    position: relative;
+}
+
 form{
-    background-color: rgb(236, 219, 222);
+    background-color: rgb(236, 181, 191);
     width: 400px; 
     height: 450px;
     padding: 10px; 
+    position: absolute;
+    margin-left: 250px; 
+}
+
+#contact{
+    position: absolute;
+    width: 960px; 
+    height: 100vh; 
+    background-color: rgb(255, 230, 230); 
+
+}
+input{
+    border-radius: 5px; 
+    padding: 10px; 
+}
+
+textarea{
+    border-radius: 5px; 
 }

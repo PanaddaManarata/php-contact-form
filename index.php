@@ -13,15 +13,14 @@
         <div id="contact">
             <h3>Contact Us</h3>
             <div id="errors"></div>
-                <form method="post" action="form.php">  <br>
+                <form action="form.php" method="post">  <br>
                     <label for="firstname">First name</label>
-                        <input type="text" name="firstname" placeholder="Your name.."> <br>  <br>
+                        <input type="text" id="nameClient" name="nameClient" placeholder="Your name.."> <br>  <br>
                     <label for="email">Email</label>
-                        <input type="text" name="email" placeholder="email.." value="<?php echo $email;?>"><br><br>
+                        <input type="text" id="email" name="email" placeholder="email.." value="<?php echo $clientEmail;?>"><br><br>
                     <label for="message"></label>
-                        <textarea name="message" id="message" cols="30" rows="10" value="<?php echo $message;?>"></textarea> <br><br>
-                        <input type="submit" value="Submit">
-
+                        <textarea name="message" id="message" cols="30" rows="10" value="<?php echo $clientMessage;?>"></textarea> <br><br>
+                        <input type="submit" value="submit">
                         </form>
 </div>
 
@@ -30,6 +29,6 @@
 
 
 
-<?php include("form.php"); ?>
+
 </body>
 </html>
