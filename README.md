@@ -31,5 +31,5 @@ without spamming real customers
 
 ## Preview
 
-![](./img/contactform.png)
+![conctac form preview](./img/contactform.png)
 
