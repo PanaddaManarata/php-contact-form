@@ -29,5 +29,7 @@ without spamming real customers
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-![alt text](../img/contactform.png)
+## Preview
+
+![](./img/contactform.png)
 
