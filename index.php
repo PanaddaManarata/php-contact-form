@@ -12,23 +12,16 @@
 <section id="contactform">
         <div id="contact">
             <h1>Contact Us</h1>
-           
+            <?php $errorMessage= "fill in your name" ?>
                 <form action="form.php" method="post">  <br>
-                   
-                        <input type="text" id="nameClient" name="nameClient" placeholder="Full name"> <br>  <br>
-                   
-                        <input type="text" id="email" name="email" placeholder="Email" value="<?php echo $clientEmail;?>"><br><br>
-                   
-                        <textarea name="message" id="message" placeholder="Message" cols="30" rows="10" value="<?php echo $clientMessage;?>"></textarea> <br><br>
+                        <input type="text" name="nameClient" placeholder="Full name"> <br><br>
+                        <input type="email" name="email" placeholder="Email"><br><br>
+                        <input type="subject" id="subject" name="subject" placeholder="Subject"> <br><br>
+                        <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea> <br><br>
                         <input type="submit" value="submit" id="submitBtn">
-                        </form>
-</div>
-
-
+                </form>
+        </div>
 </section>
-
-
-
 
 </body>
 </html>
