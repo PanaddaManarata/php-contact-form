@@ -10,8 +10,8 @@ if(isset($_POST)){
 
     //
      
-    $mail_subject = "new email from $mailClient";
-    $mail_body = "Hello owner of this webiste, you have recieved a message from $clientName, find message below :<b> $ClientMessage </b>";
+    $mail_subject = "new email from $mailClient <br>";
+    $mail_body = "Hello owner of this webiste, you have recieved a message from $clientName, find message below :<br> <b> $ClientMessage </b>";
 
 //empty 
 

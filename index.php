@@ -11,16 +11,16 @@
 
 <section id="contactform">
         <div id="contact">
-            <h3>Contact Us</h3>
-            <div id="errors"></div>
+            <h1>Contact Us</h1>
+           
                 <form action="form.php" method="post">  <br>
-                    <label for="firstname">First name</label>
-                        <input type="text" id="nameClient" name="nameClient" placeholder="Your name.."> <br>  <br>
-                    <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="email.." value="<?php echo $clientEmail;?>"><br><br>
-                    <label for="message"></label>
-                        <textarea name="message" id="message" cols="30" rows="10" value="<?php echo $clientMessage;?>"></textarea> <br><br>
-                        <input type="submit" value="submit">
+                   
+                        <input type="text" id="nameClient" name="nameClient" placeholder="Full name"> <br>  <br>
+                   
+                        <input type="text" id="email" name="email" placeholder="Email" value="<?php echo $clientEmail;?>"><br><br>
+                   
+                        <textarea name="message" id="message" placeholder="Message" cols="30" rows="10" value="<?php echo $clientMessage;?>"></textarea> <br><br>
+                        <input type="submit" value="submit" id="submitBtn">
                         </form>
 </div>
 

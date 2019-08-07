@@ -1,36 +1,55 @@
-*{
-    margin: 0 auto; 
-    padding: 0; 
-    box-sizing: border-box; 
+@import url('https://fonts.googleapis.com/css?family=ABeeZee&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
 }
 
-section{
-    width: 960px; 
+h1 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: lighter;
+
+}
+
+section {
+    width: 100%;
     height: 100vh;
     position: relative;
+    background-image: url(../img/desk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
-form{
-    background-color: rgb(236, 181, 191);
-    width: 400px; 
+#contact {
+    background-color: rgba(245, 229, 232, 0.596);
+    width: 400px;
     height: 450px;
-    padding: 10px; 
+    padding: 10px;
+    top: 100px;
+    right: 8%;
     position: absolute;
-    margin-left: 250px; 
 }
 
-#contact{
-    position: absolute;
-    width: 960px; 
-    height: 100vh; 
-    background-color: rgb(255, 230, 230); 
 
+input {
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%; 
+    margin-left: 15%; 
 }
-input{
-    border-radius: 5px; 
+
+textarea {
+    border-radius: 5px;
     padding: 10px; 
+    width: 70%; 
+    margin-left: 15%; 
 }
 
-textarea{
-    border-radius: 5px; 
+#submitBtn{
+    width: 50%;
+    margin-left: 25%; 
 }
